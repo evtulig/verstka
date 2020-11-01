@@ -1,0 +1,23 @@
+body {
+    background-color: #d2dee7;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+#menu {
+    margin-top: 30px;
+}
+a {
+    background: #a9c6a9;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 3px solid #000000;
+    background: rgba(20, 15, 20, 0.4);
+    padding: 10px 5px;
+}
+#img {
+    height: 640px;
+    width: 960px;
+}

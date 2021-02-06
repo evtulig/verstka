@@ -1,0 +1,296 @@
+.block1 {
+    background-color: #2d99f1;
+    height: 70px;
+}
+.block2 {
+    background-image: url(images/shapka_fon1.png);
+    height: 440px;
+    background-size: cover;
+}
+.block3 {
+    background-color: #f6f6f6;
+    height: 43px;
+
+}
+.block4 {
+    background-color: #ffffff;
+    height: 508px;
+
+}
+.block5 {
+    background-image: url(images/blok_3.jpg);
+    height: 712px;
+    background-size: cover;
+}
+.block6 {
+    background-color: #ffffff;
+    height: 498px;
+
+}
+.block7 {
+    background-color: #f6f6f6;
+    height: 70px;
+
+}
+
+.main {
+    max-width: 980px;
+    position: absolute;
+    left: 50%;
+    margin-left: -490px;
+    top: 0;
+    font-family: sans-serif;
+}
+.top {
+    height: 60px;
+    padding-top: 10px;
+}
+.aurora-Silver {
+    display: inline-block;
+}
+.anchor {
+    float: right;
+    margin-top: 17px;
+}
+li {
+    font-family: "Roboto Light";
+}
+.anchor ul li {
+    display: inline;
+}
+.anchorLink {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.anchorLink:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 6px;
+}
+h1 {
+    font-family: "Roboto Regular";
+    font-size: 47px;
+}
+h2 {
+    font-family: Roboto Light;
+    font-size: 27px;
+}
+.face {
+    height: 440px;
+
+}
+.faceText {
+    display: inline-block;
+    width: 570px;
+}
+.heading {
+    padding-top: 150px;
+
+}
+.headingText {
+    padding-top: 45px;
+
+}
+.facePicture {
+    float: right;
+    width: 405px;
+    padding-top: 16px;
+}
+.light {
+    color: #fff;
+}
+#plug {
+    height: 43px;
+}
+#iconBox {
+    padding-top: 60px;
+    height: 448px;
+}
+.iconBox {
+    display: inline-block;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    height: 210px;
+    width: 315px;
+    margin-right: 8px;
+    margin-left: 1px;
+    position: relative;
+    vertical-align: top;
+    padding-top: 20px;
+}
+.marginRightNull {
+    margin-right: 0 !important;
+}
+.iconPicture {
+    margin-left: 115px;
+
+    size: 92px;
+}
+.iconPictureHeading {
+    margin-top: 10px;
+}
+h3 {
+    font-size: 25px;
+    font-family: "Roboto Light";
+    text-align: center;
+
+}
+.iconPictureText {
+    margin-top: 10px;
+    padding: 0 16px;
+}
+p {
+    font-family: "Roboto Light";
+    font-size: 16px;
+    text-align: center;
+}
+.iconHeading {
+    margin-top: 50px;
+    text-align: center;
+}
+.iconText {
+    margin-top: 28px;
+}
+.dark {
+    color: #444545;
+}
+#aboutUs {
+    padding-top: 55px;
+    height: 656px;
+}
+.aboutUsHeading {
+
+    text-align: center;
+}
+.aboutUsText {
+    margin-top: 34px;
+    text-align: center;
+}
+#wrapper1 {
+    padding-top: 44px;
+}
+.aboutUsTextBlock {
+    background-color: RGBA(0, 0, 0, 0.05);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    height: 385px;
+    width: 475px;
+    margin-right: 18px;
+    margin-left: 1px;
+    padding-bottom: 20px;
+}
+.aboutUsTextBlockHeading {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h4 {
+    font-size: 21px;
+    font-family: "Roboto Regular";
+    text-align: left;
+}
+.aboutUsTextBlockInfo {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.aboutUsTextBlockInfo ul li {
+    margin-top: 15px;
+    list-style-type: disc;
+}
+.bold {
+    font-weight: bold;
+}
+#contact {
+    height: 454px;
+    padding-top: 45px;
+}
+.contactHeading {
+    text-align: center;
+}
+.contactText {
+    margin-top: 35px;
+}
+.contactTable {
+    margin-top: 65px;
+}
+#wrapper2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 475px;
+    margin: 0 10px 0 1px;
+}
+.visitorInfo {
+    margin: 7px 0;
+    vertical-align: top;
+    display: inline-block;
+}
+.inputVisitorInfo {
+    height: 40px;
+    width: 455px;
+    font-family: "Roboto Light";
+    padding-left: 15px;
+
+}
+.visitorText {
+    margin: 7px 1px 0 10px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+.inputVisitorText {
+    height: 152px;
+    width: 455px;
+    font-family: "Roboto Light";
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.button {
+    margin: 25px;
+    text-align: center;
+}
+button {
+    border: 4px solid #3CA0F2;
+    border-radius: 25px;
+    height: 45px;
+    width: 275px;
+    font-size: 20px;
+    color: #3CA0F2;
+}
+button:focus {
+    outline: none;
+}
+.footer {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Roboto Regular"; !important;
+}
+.footerText {
+    margin-top: 10px;
+}
+#button {
+    background-image: url(images/up.png);
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 63px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+#button:hover {
+    cursor: pointer;
+}
+#button.show {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,31 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Резюме</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="1.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript">
+        jQuery(document).ready(function() {
+            var btn = $('#button');
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 300) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+            btn.on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({scrollTop:0}, '300');
+            });
+        });
+    </script>
 </head>
 <body>
+<div>
+    <div class="block1"></div>
+    <div class="block2"></div>
+    <div class="block3"></div>
+    <div class="block4"></div>
+    <div class="block5"></div>
+    <div class="block6"></div>
+    <div class="block7"></div>
+    <div class="main">
+        <div class="top">
+            <div class="aurora-Silver">
+                <img src="images/Aurora-Silver.png" alt="Aurora-Silver">
+            </div>
+            <div class="anchor">
+                <ul>
+                    <li class="topAnchorLi"><a class="anchorLink" href="index.html">HOME</a></li>
+                    <li class="topAnchorLi"><a class="anchorLink" href="#aboutUs">ABOUT</a></li>
+                    <li class="topAnchorLi"><a class="anchorLink" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="face">
+            <div class="faceText">
+                <div class="heading light">
+                    <h1>FIND YOUR ADS</h1>
+                </div>
+                <div class="headingText light">
+                    <h2>in the pocket of your customer. The variety of apps we serve guarantees this.</h2>
+                </div>
+            </div>
+            <div class="facePicture">
+                <img src="images/mob2.png" alt="mob2">
+            </div>
+        </div>
+        <div id="plug"></div>
+        <div id="iconBox">
+            <div class="iconBox">
+                <div class="iconPicture">
+                    <img src="images/icon_1.png" alt="icon_1">
+                </div>
+                <div class="iconPictureHeading dark"><h3>For Add Network</h3></div>
+                <div class="iconPictureText dark">
+                    <p>Popular trends and games are changing, traffic flow remains stable</p>
+                </div>
+            </div>
+            <div class="iconBox">
+                <div class="iconPicture">
+                    <img src="images/icon_2.png" alt="icon_2">
+                </div>
+                <div class="iconPictureHeading dark"><h3>For DSP partners</h3></div>
+                <div class="iconPictureText dark">
+                    <p>Big users database, perfect balance between unique users and impressions</p>
+                </div>
+            </div>
+            <div class="iconBox marginRightNull">
+                <div class="iconPicture">
+                    <img src="images/icon_3.png" alt="icon_3">
+                </div>
+                <div class="iconPictureHeading dark"><h3>For Direct Advertisers</h3></div>
+                <div class="iconPictureText dark">
+                    <p>Over-the-counter deals: profitable for both sides</p>
+                </div>
+            </div>
+            <div class="iconHeading dark"><h2>Any format, any geo, any volume, any vertical</h2></div>
+            <div class="iconText dark">
+                <p>We offer an unique solution on mobile apps market: ad spaces in thousands of applications right from
+                    developers. Experienced team will integrate it with your ad source in professional manner.</p>
+            </div>
+        </div>
+        <div class="aboutUs" id="aboutUs">
+            <div class="aboutUsHeading light"><h2>About Us</h2></div>
+            <div class="aboutUsText light">
+                <p>Aurora Silver is mobile apps publisher connected hundreds development studios, both affiliated and
+                    independent. We have exclusive rights to monetise thousands of applications on all the major mobile
+                    markets.</p>
+            </div>
+            <div id="wrapper1">
+                <div class="aboutUsTextBlock">
+                    <div class="aboutUsTextBlockHeading light"><h4>These are some reasons to work with us:</h4></div>
+                    <div class="aboutUsTextBlockInfo light">
+                        <ul>
+                            <li>we’re interested to offer you traffic in any region demanded</li>
+                            <li>large volumes of traffic: up to hundreds of millions impressions per partner</li>
+                            <li>Great range of main (Google Play, Apple Store) and alternative (Samsung, SlideMe, Nook)
+                                markets for mobile applications to represent your interests on. The total number of our
+                                applications on all the markets is over 10 000.</li>
+                            <li>high impressions / unique users ratio as a result of applications big volume</li>
+                            <li>reaching of target audience guaranteed</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aboutUsTextBlock marginRightNull">
+                    <div class="aboutUsTextBlockHeading light"><h4>We offer a complete range of ads types for demand side partners:</h4></div>
+                    <div class="aboutUsTextBlockInfo light">
+                        <ul>
+                            <li>banners (320x50, 300x50)</li>
+                            <li>interstitials (250x300, 320x480, full screen)</li>
+                            <li>rich media (full HTML5 support)</li>
+                            <li>video (VAST)</li>
+                            <li>in-apps (Unity plugins)</li>
+                        </ul>
+                    </div>
 
-    <nav id="menu">
-        <a href = Index.html>Главная</a>
-        <a href="https://vk.com/tuliglovich_evgeniy" class = "kontakt">Контакты</a>
-        <a>О разработчике</a>
-    </nav>
-    <div id="info">
-        <h1>Добрый день! Я начинающий веб разработчик!</h1>
-        <p>Мне очень нравится пробовать свои силы в CSS и JS</p>
-        <img src="homr.jpg" alt = "мое фото" id="img">
+                    <div class="aboutUsTextBlockHeading light">
+                        <p class="bold">All the ad types support providing all the necessary info such as:</p>
+                    </div>
+                    <div class="aboutUsTextBlockInfo light">
+                        <ul>
+                            <li>geo</li>
+                            <li>device id (compatible with store requirements)</li>
+                            <li>device info</li>
+                            <li>carrier</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="aboutUsText light">
+                <p>We are also always opened for your suggestion and ideas on unconventional add formats.
+                    As Aurora Silver already represents the interests of many studious worldwide, we're ready for
+                    cooperation with new partners.</p>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contactHeading dark"><h2>Contact</h2></div>
+            <div class="contactText dark"><p>Feel free to contact us if you have an idea of any sort of partnership. Let’s
+                schedule a call or meet on one of the global industry events.</p></div>
+            <form class="contactTable">
+                <div id="wrapper2">
+                    <div class="visitorInfo"><input class="inputVisitorInfo" name="name" type="text" placeholder="Name"></div>
+                    <div class="visitorInfo"><input class="inputVisitorInfo" name="phone" type="tel" placeholder="Phone"></div>
+                    <div class="visitorInfo"><input class="inputVisitorInfo" name="e-mail" type="email" placeholder="E-mail"></div>
+                </div>
+                <div class="visitorText"><textarea class="inputVisitorText" name="text" type="text" placeholder="Text"></textarea></div>
+                <div class="button">
+                    <button formaction="">Submit</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="footer">
+            <div class="copyright dark"><p>Copyright © 2014  Aurora Silver</p></div>
+            <div class="footerText dark"> <p class="bold">EULA &nbsp&nbsp Privacy Policy</p></div>
+        </div>
     </div>
+</div>
+<a id="button"></a>
+
 
 </body>
-<footer>
-    <hr>
-    <p>
-    Евгений Тулиглович, 2020
-    </p>
-    <p>
-    88003001010
-    </p>
-</footer>
 </html>
